@@ -16,4 +16,4 @@ header #lnb nav > ul ul { position: relative; z-index: 2; height: 170px; opacity
 header #lnb nav > ul:hover ul { opacity: 1;}
 header #lnb nav > ul ul a { display: block; padding: 8px 0; color: #bbb;}
 header #lnb nav > ul ul li:first-child { padding-top: 8px;}
-header #lnb nav > ul ul a:hover { color: #000;}
+header #lnb nav > ul ul a:hover { color: #000; font-weight: bold;}
