@@ -8,10 +8,10 @@ header #lnb nav { width: 600px; margin: 0 auto;}
 header #lnb nav > ul { position: relative; display: flex; justify-content: space-between; height: 34px; overflow: hidden;}
 header #lnb nav > ul:hover { overflow: visible;}
 header #lnb nav > ul > li { flex: 1; text-align: center;}
-header #lnb nav > ul > li > a { position: relative; display: block; font-size: 16px; padding: 5px 0; color: #bbb;}
+header #lnb nav > ul > li > a { position: relative; display: block; font-size: 16px; font-weight: bold; padding: 5px 0; color: #bbb;}
 header #lnb nav > ul > li:hover > a { color: #000;}
-header #lnb nav > ul > li > a:after { content: ""; position: absolute; z-index: -1; top: 1px;; left: 0; height: 0; width: 100%; background: #fff;}
-header #lnb nav > ul > li:hover > a:after { height: 100%;}
+header #lnb nav > ul > li > a:after { content: ""; position: absolute; z-index: -1; top: 1px; left: 0; height: 0; width: 100%; background: #fff;}
+header #lnb nav > ul > li:hover > a:after { height: 110%;}
 header #lnb nav > ul ul { position: relative; z-index: 2; height: 170px; opacity: 0;}
 header #lnb nav > ul:hover ul { opacity: 1;}
 header #lnb nav > ul ul a { display: block; padding: 8px 0; color: #bbb;}
